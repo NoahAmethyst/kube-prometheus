@@ -30,7 +30,7 @@ spec:
       automountServiceAccountToken: false
       containers:
       - env: []
-        image: grafana/grafana:12.0.1
+        image: swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/grafana/grafana:12.0.1
         name: grafana
         ports:
         - containerPort: 3000
